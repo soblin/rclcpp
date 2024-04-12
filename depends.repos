@@ -1,0 +1,33 @@
+repositories:
+  rcl:
+    type: git
+    url: https://github.com/ros2/rcl.git
+    version: humble
+  rcl_interfaces:
+    type: git
+    url: https://github.com/ros2/rcl_interfaces.git
+    version: humble
+  rclcpp:
+    type: git
+    url: https://github.com/ros2/rclcpp.git
+    version: humble
+  rcutils:
+    type: git
+    url: https://github.com/ros2/rcutils.git
+    version: humble
+  rosidl:
+    type: git
+    url: https://github.com/ros2/rosidl.git
+    version: humble
+  rosidl_core:
+    type: git
+    url: https://github.com/ros2/rosidl_core.git
+    version: rolling
+  rosidl_typesupport:
+    type: git
+    url: https://github.com/ros2/rosidl_typesupport.git
+    version: humble
+  test_interface_files:
+    type: git
+    url: https://github.com/ros2/test_interface_files.git
+    version: humble

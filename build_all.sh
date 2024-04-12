@@ -1,0 +1,1 @@
+colcon build --symlink-install --continue-on-error --event-handlers console_cohesion+ --catkin-skip-building-tests --cmake-args " -GNinja" -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_CXX_FLAGS="-Wno-deprecated-declarations"
